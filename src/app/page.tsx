@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'; // Menggunakan react-icons yang sudah diinstal
-
+import Navbar from "./components/Navbar";
 export default function Home() {
   return (
+    // <navbar />
     <div className="portfolio-container">
       {}
       <header className="hero-section">
@@ -21,7 +22,7 @@ export default function Home() {
           </a>
         </div>
       </header>
-
+        <Navbar />
       {}
       <section className="about-me-section">
         <h2>Tentang Saya</h2>
@@ -51,15 +52,15 @@ export default function Home() {
         <div className="projects-grid">
           {}
           <div className="project-card">
-            <h3>Nama Proyek 1</h3>
+            <h3>Creative Video</h3>
             <p>Membuat Video kreative setiap moment di organisasi .</p>
-            <a href="https://www.instagram.com/reel/DB3LZ7ly_iq/?igsh=MTJ5OGF6azcwNGR6Ng==" target="_blank" rel="noopener noreferrer" className="project-link">Lihat feed video <FaGithub /></a>
+            <a href="https://www.instagram.com/reel/DB3LZ7ly_iq/?igsh=MTJ5OGF6azcwNGR6Ng==" target="_blank" rel="noopener noreferrer" className="project-link">Lihat feed video</a>
           </div>
           {}
           <div className="project-card">
-            <h3>Nama Proyek 2</h3>
+            <h3>Frelance</h3>
             <p>Mengabadikan event Engagement and Wedding.</p>
-            <a href="https://vt.tiktok.com/ZSUgKtErE/" target="_blank" rel="noopener noreferrer" className="project-link">Lihat portoVideo <FaGithub /></a>
+            <a href="https://vt.tiktok.com/ZSUgKtErE/" target="_blank" rel="noopener noreferrer" className="project-link">Lihat portoVideo</a>
           </div>
           {}
         </div>
